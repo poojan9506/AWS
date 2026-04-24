@@ -888,12 +888,12 @@
             const address = document.getElementById('address').value.trim();
             const college = document.getElementById('college').value.trim() || 'Not provided';
 
-            let msg = `*New Inquiry - Hard Copy Assignment*%0A%0A`;
+            let msg = `*New Inquiry - Assignment*%0A%0A`;
             msg += `👤 Name: ${name}%0A`;
             msg += `📞 Phone: ${phone}%0A`;
             msg += `📍 Address: ${address}%0A`;
             msg += `🎓 College: ${college}%0A`;
-            msg += `%0APlease share assignment details. I need a hard copy.`;
+            msg += `%0APlease share assignment details.`;
 
             window.open(`https://wa.me/916359288482?text=${msg}`, '_blank');
             document.getElementById('contactForm').reset();
