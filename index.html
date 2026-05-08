@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Writing Service | Handwritten Assignments in Ahmedabad</title>
-    <meta name="description" content="Professional assignment writing service in Ahmedabad. Handwritten assignments. Branch in CTM. WhatsApp: 6359288482.">
+    <meta name="description" content="Professional assignment writing service in Ahmedabad. Handwritten assignments. WhatsApp: 6359288482.">
     <style>
         :root {
             --bg-deep: #0a0a10;
@@ -299,6 +299,15 @@
             background: rgba(255,255,255,0.06);
             transform: translateY(-3px);
         }
+        .btn-premium {
+            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+            color: #fff;
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4);
+        }
+        .btn-premium:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(139, 92, 246, 0.6);
+        }
 
         /* Sections */
         .section {
@@ -412,6 +421,83 @@
         .step-card p {
             color: var(--text-muted);
             font-size: 0.9rem;
+        }
+
+        /* Premium Section */
+        .premium-cta {
+            background: linear-gradient(135deg, #111827, #0f172a);
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            overflow: hidden;
+            position: relative;
+        }
+        .premium-cta .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .premium-content {
+            flex: 1;
+        }
+        .premium-content h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #c084fc, #a855f7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 16px;
+        }
+        .premium-content p {
+            color: var(--text-muted);
+            margin-bottom: 24px;
+            font-size: 1rem;
+        }
+        .premium-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 28px;
+        }
+        .premium-feature {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.03);
+            padding: 6px 14px;
+            border-radius: 40px;
+            font-size: 0.85rem;
+        }
+        .premium-feature span {
+            font-size: 1.1rem;
+        }
+        .btn-premium-large {
+            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+            padding: 14px 36px;
+            font-size: 1.1rem;
+            box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .premium-image {
+            flex: 0.4;
+            text-align: center;
+        }
+        .premium-image div {
+            font-size: 5rem;
+            filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));
+        }
+        @media (max-width: 800px) {
+            .premium-cta .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .premium-features {
+                justify-content: center;
+            }
         }
 
         .branches-grid {
@@ -655,6 +741,7 @@
                 <li><a href="#home" onclick="closeNav()">Home</a></li>
                 <li><a href="#services" onclick="closeNav()">Services</a></li>
                 <li><a href="#how" onclick="closeNav()">Process</a></li>
+                <li><a href="#premium" onclick="closeNav()">Premium Plan</a></li>
                 <li><a href="#branches" onclick="closeNav()">Branches</a></li>
                 <li><a href="#contact" onclick="closeNav()">Contact</a></li>
                 <li><a href="https://wa.me/916359288482?text=Hi%2C%20I%20need%20assignment%20help" target="_blank" class="nav-cta">WhatsApp</a></li>
@@ -678,7 +765,7 @@
         <div class="hero-glow-circle"></div>
         <div class="container">
             <div class="hero-content reveal">
-                <div class="hero-badge">📍 Ahmedabad • CTM</div>
+                <div class="hero-badge">📍 Ahmedabad</div>
                 <h1>Assignment Writing Service</h1>
                 <p>We write your college assignments by hand. Just share your topic, and we deliver the completed assignment to you.</p>
                 <div class="hero-buttons">
@@ -753,6 +840,31 @@
         </div>
     </section>
 
+    <!-- Premium Writer Plan Section -->
+    <section class="section" id="premium">
+        <div class="container">
+            <div class="premium-cta reveal">
+                <div class="container" style="padding: 48px 32px;">
+                    <div class="premium-content">
+                        <span class="section-badge" style="background: rgba(139,92,246,0.2); color: #c084fc;">💰 EARN WITH US</span>
+                        <h2>Become a Premium Writer</h2>
+                        <p>Pay ₹1000 one-time registration and start earning by writing handwritten assignments for our customers. Get paid instantly via UPI as soon as the customer receives the assignment.</p>
+                        <div class="premium-features">
+                            <div class="premium-feature"><span>📝</span> Handwritten work</div>
+                            <div class="premium-feature"><span>⚡</span> Daily / occasional tasks</div>
+                            <div class="premium-feature"><span>🚫</span> No cancellation after accept</div>
+                            <div class="premium-feature"><span>📍</span> Ahmedabad residents only</div>
+                        </div>
+                        <a href="premium-writer.html" class="btn btn-premium btn-premium-large">✨ Join Premium Plan →</a>
+                    </div>
+                    <div class="premium-image">
+                        <div>✍️ 💵</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="section" id="branches">
         <div class="container">
             <div class="section-header reveal">
@@ -762,9 +874,9 @@
             </div>
             <div class="branches-grid">
                 <div class="branch-card reveal">
-                    <div class="branch-name">CTM</div>
-                    <div class="branch-city">📍 Ahmedabad, Gujarat</div>
-                    <div class="branch-detail">Our CTM branch serves students from the eastern part of the city. Assignment collection available here.</div>
+                    <div class="branch-name">Ahmedabad</div>
+                    <div class="branch-city">📍 Gujarat, India</div>
+                    <div class="branch-detail">Our branch serves students across Ahmedabad. Assignment collection available here.</div>
                 </div>
             </div>
         </div>
@@ -808,7 +920,7 @@
                     </div>
                     <div class="info-item">
                         <div class="icon-circle">🏢</div>
-                        <div><strong>Branch</strong><br>CTM, Ahmedabad</div>
+                        <div><strong>Branch</strong><br>Ahmedabad</div>
                     </div>
                     <a href="https://wa.me/916359288482?text=Hi%2C%20I%20need%20an%20assignment" target="_blank" class="whatsapp-btn">
                         💬 Chat on WhatsApp
@@ -830,11 +942,12 @@
                     <a href="#home">Home</a>
                     <a href="#services">Services</a>
                     <a href="#how">How It Works</a>
+                    <a href="#premium">Premium Plan</a>
                     <a href="#branches">Branches</a>
                 </div>
                 <div>
                     <h4>Location</h4>
-                    <a href="#branches">CTM, Ahmedabad</a>
+                    <a href="#branches">Ahmedabad</a>
                 </div>
                 <div>
                     <h4>Contact</h4>
