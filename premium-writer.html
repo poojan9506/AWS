@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Premium Writer Plan | Join & Earn – Assignment Writing Service Ahmedabad</title>
+    <meta name="description" content="Premium writer plan: Pay ₹1000 and start earning by writing handwritten assignments. Join our Ahmedabad-based team. Get paid instantly via UPI after customer receives assignment. Non-cancelable orders.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="https://www.clipartmax.com/png/full/258-2587228_download-ai-file-writing-hand-emoji-png.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a10;
+            --bg-card: #12121c;
+            --bg-card-hover: #1a1a28;
+            --surface: #1e1e2e;
+            --primary: #2563eb;
+            --primary-light: #3b82f6;
+            --primary-glow: #60a5fa;
+            --secondary: #64748b;
+            --text: #e0e0e0;
+            --text-muted: #a0a0b0;
+            --border: rgba(255, 255, 255, 0.08);
+            --border-glow: rgba(37, 99, 235, 0.35);
+            --success: #10b981;
+            --warning: #f59e0b;
+            --radius-md: 20px;
+            --radius-sm: 14px;
+            --shadow-glow: 0 0 30px rgba(37, 99, 235, 0.3);
+        }
+
+        body {
+            background: var(--bg-deep);
+            color: var(--text);
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+        .navbar.scrolled {
+            background: rgba(10, 10, 16, 0.95);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+        }
+        .logo-text {
+            font-weight: 800;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            align-items: center;
+        }
+        .nav-links a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+        .nav-links a:hover {
+            background: rgba(255,255,255,0.08);
+            color: #fff;
+        }
+        .nav-cta {
+            background: linear-gradient(135deg, #2563eb, #1e40af) !important;
+            color: #fff !important;
+            box-shadow: 0 0 15px rgba(37,99,235,0.5);
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #fff;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+
+        .hero-premium {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: radial-gradient(circle at 20% 30%, #0f172a 0%, #0a0a10 80%);
+            padding: 120px 0 60px;
+        }
+        .hero-content {
+            max-width: 700px;
+        }
+        .hero-badge {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(37,99,235,0.6);
+            display: inline-block;
+            padding: 6px 20px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #93c5fd;
+            margin-bottom: 20px;
+        }
+        .hero-content h1 {
+            font-size: 3.2rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #fff, #90aaff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+        }
+        .price-card {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border: 1px solid var(--primary);
+            border-radius: 32px;
+            padding: 20px 30px;
+            margin: 30px 0 20px;
+            display: inline-block;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.5);
+        }
+        .price-amount {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        .price-amount small {
+            font-size: 1.2rem;
+        }
+        .price-note {
+            color: var(--primary-light);
+        }
+
+        .section {
+            padding: 70px 0;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .section-badge {
+            background: rgba(37,99,235,0.15);
+            padding: 6px 20px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #93c5fd;
+            display: inline-block;
+            margin-bottom: 16px;
+        }
+        .section-header h2 {
+            font-size: 2.4rem;
+            font-weight: 800;
+        }
+        .grid-2col {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 28px;
+            transition: 0.25s;
+        }
+        .info-card:hover {
+            border-color: var(--primary);
+            background: var(--bg-card-hover);
+            transform: translateY(-6px);
+        }
+        .info-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+        .info-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+        .highlight {
+            color: var(--primary-light);
+            font-weight: 700;
+        }
+        .alert-box {
+            background: rgba(245, 158, 11, 0.15);
+            border-left: 4px solid var(--warning);
+            padding: 16px;
+            border-radius: 14px;
+            margin-bottom: 20px;
+        }
+        .join-form {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            padding: 36px;
+            margin-top: 20px;
+        }
+        .form-row {
+            margin-bottom: 20px;
+        }
+        .form-row label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #ddd;
+        }
+        .form-row input, .form-row textarea {
+            width: 100%;
+            padding: 14px 16px;
+            background: #0d0d16;
+            border: 1px solid #2a2a3a;
+            border-radius: 14px;
+            color: #fff;
+            font-size: 1rem;
+            transition: 0.2s;
+        }
+        .form-row input:focus, .form-row textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(37,99,235,0.3);
+        }
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .checkbox-group input {
+            width: 20px;
+            height: 20px;
+            margin-top: 3px;
+            accent-color: var(--primary);
+        }
+        .checkbox-group label {
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            border: none;
+            padding: 14px 28px;
+            border-radius: 60px;
+            font-weight: 700;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.2s;
+            box-shadow: 0 10px 20px -5px rgba(37,99,235,0.4);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(37,99,235,0.6);
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #25D366;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 25px rgba(37,211,102,0.5);
+            z-index: 999;
+            text-decoration: none;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%,100%{ transform: translateY(0); }
+            50%{ transform: translateY(-8px); }
+        }
+        .footer {
+            background: #05050a;
+            padding: 40px 0 20px;
+            text-align: center;
+            color: #888;
+            margin-top: 20px;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(25px);
+            transition: 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @media (max-width: 800px) {
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 260px;
+                height: 100vh;
+                background: #0a0a10;
+                flex-direction: column;
+                padding: 100px 30px;
+                gap: 20px;
+                transition: 0.3s;
+            }
+            .nav-links.active {
+                right: 0;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .hero-content h1 {
+                font-size: 2.2rem;
+            }
+            .price-amount {
+                font-size: 2.8rem;
+            }
+        }
+        .error-msg {
+            color: #f87171;
+            font-size: 0.8rem;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">✍️</div>
+                <span class="logo-text">AWS</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="https://wa.me/916359288482?text=Hello%2C%20I%20want%20to%20know%20about%20Premium%20Writer%20Plan" class="nav-cta" target="_blank">💬 WhatsApp</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleNav()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-premium">
+        <div class="container">
+            <div class="hero-content reveal">
+                <div class="hero-badge">🔥 LIMITED OPPORTUNITY</div>
+                <h1>Become a Premium Writer<br>Earn with Handwritten Tasks</h1>
+                <p>Pay ₹1000 one-time registration & get access to paid assignment work. Write neatly, submit on time, and earn per assignment.</p>
+                <div class="price-card">
+                    <div class="price-amount">₹1000 <small>/ one-time</small></div>
+                    <div class="price-note">Premium Writer Access • Non-refundable</div>
+                </div>
+                <p style="margin-top: 5px;">✅ Open for all Ahmedabad residents | ⚡ Work may be daily or occasional | 🚫 No cancellation after accepting order</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key benefits & conditions -->
+    <div class="container section" id="plan-details">
+        <div class="section-header reveal">
+            <span class="section-badge">Why Join Us</span>
+            <h2>Premium Writer Plan – ₹1000</h2>
+            <p>Get consistent work assignments, flexible earning, and be part of Ahmedabad's trusted handwriting network.</p>
+        </div>
+        <div class="grid-2col">
+            <div class="info-card reveal">
+                <div class="info-icon">📝</div>
+                <h3>Earn Per Assignment</h3>
+                <p>Each handwritten assignment you complete pays ₹150 - ₹800+ depending on length & complexity. Top earners recover registration fee in 2-3 tasks.</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="info-icon">⏳</div>
+                <h3>Work Flexibility</h3>
+                <p>Tasks assigned based on customer demand. <span class="highlight">Some days daily work, sometimes gaps</span> — we notify you when orders arrive.</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="info-icon">🚫</div>
+                <h3>No Order Cancellation</h3>
+                <p>Once you accept an assignment, <strong class="highlight">you cannot cancel</strong>. Delivery must be on time & neat. Serious writers only.</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="info-icon">📍</div>
+                <h3>Ahmedabad Residents Only</h3>
+                <p><strong>If you live in Ahmedabad, you can work.</strong> (Any area within city limits is acceptable.)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Steps & Workflow - Payment step updated -->
+    <div class="container section" id="how-work">
+        <div class="section-header reveal">
+            <span class="section-badge">How it works</span>
+            <h2>From Registration to Earning</h2>
+        </div>
+        <div class="grid-2col">
+            <div class="info-card reveal">
+                <div class="step-number" style="background: #2563eb; width: 40px; height: 40px; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</div>
+                <h3 style="margin-top: 12px;">Apply & Pay ₹1000</h3>
+                <p>Fill the form, accept terms, and complete the registration fee via WhatsApp/UPI or visit our branch (cash payment also accepted).</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="step-number" style="background: #2563eb; width: 40px; height: 40px; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;">2</div>
+                <h3 style="margin-top: 12px;">Verification & Onboarding</h3>
+                <p>We verify Ahmedabad residency (any area), add you to the premium writer group. Share your handwriting sample if needed.</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="step-number" style="background: #2563eb; width: 40px; height: 40px; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;">3</div>
+                <h3 style="margin-top: 12px;">Get Assignments</h3>
+                <p>We share task details (topic, deadline, pages). You accept → <strong class="highlight">cannot cancel</strong> → write handwritten copy → submit (scan or physical pickup).</p>
+            </div>
+            <div class="info-card reveal">
+                <div class="step-number" style="background: #2563eb; width: 40px; height: 40px; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;">4</div>
+                <h3 style="margin-top: 12px;">Get Paid Instantly</h3>
+                <p><strong>⚡ As soon as the customer receives the completed handwritten assignment, you receive your payment — immediate transfer via UPI.</strong></p>
+            </div>
+        </div>
+        <div class="alert-box reveal" style="margin-top: 30px;">
+            🏢 <strong>Branch Visit:</strong> Our office is in Ahmedabad. If you wish to meet personally for registration, you are welcome. Address details shared after confirmation.<br>
+            ⚡ <strong>Work Pattern:</strong> Work is not guaranteed daily. Based on incoming orders from students. Some weeks heavy, some light — however we consistently provide tasks throughout the month. Ideal for students/housewives looking for genuine handwriting work.<br>
+            💰 <strong>Payment trigger:</strong> Payment is released the moment the customer confirms receipt of the handwritten assignment. Instant UPI transfer — no delays.
+        </div>
+    </div>
+
+    <!-- FORM + JOIN SECTION -->
+    <div class="container section" id="applyNow">
+        <div class="section-header reveal">
+            <span class="section-badge">Apply for Premium Plan</span>
+            <h2>Pay ₹1000 & Start Your Journey</h2>
+            <p>Open to all Ahmedabad residents (any area). Fill details carefully.</p>
+        </div>
+        <div class="join-form reveal">
+            <form id="writerJoinForm">
+                <div class="form-row">
+                    <label>Full Name *</label>
+                    <input type="text" id="fullName" placeholder="Your full name" required>
+                </div>
+                <div class="form-row">
+                    <label>WhatsApp Number *</label>
+                    <input type="tel" id="mobile" placeholder="9876543210" required>
+                </div>
+                <div class="form-row">
+                    <label>Full Address (Area, Ahmedabad) *</label>
+                    <input type="text" id="addressField" placeholder="e.g., Maninagar, Satellite, Naroda, Vastrapur, Ahmedabad" required>
+                    <div id="addressError" class="error-msg"></div>
+                </div>
+                <div class="form-row">
+                    <label>Tell us about your handwriting & experience (optional)</label>
+                    <textarea rows="2" id="experience" placeholder="Neat handwriting? Any past writing experience?"></textarea>
+                </div>
+
+                <!-- Terms checkboxes -->
+                <div class="checkbox-group">
+                    <input type="checkbox" id="locationCheck">
+                    <label>✅ <strong>I confirm that I currently reside in Ahmedabad (any area).</strong> (Proof may be asked later)</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="noCancelCheck">
+                    <label>🚫 <strong>I understand that after accepting any assignment order, I cannot cancel it.</strong> I will complete all accepted tasks on time.</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="feeCheck">
+                    <label>💰 <strong>I agree to pay the one-time registration fee of ₹1000 (non-refundable)</strong> before receiving any work. The fee secures premium writer status.</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="workAvailCheck">
+                    <label>📆 <strong>I understand work availability:</strong> sometimes daily, sometimes occasional (based on order inflow). No fixed guarantee but consistent opportunities.</label>
+                </div>
+
+                <button type="submit" class="btn-primary">💎 JOIN NOW – PAY ₹1000 VIA WHATSAPP</button>
+            </form>
+            <div style="margin-top: 24px; text-align: center; font-size: 0.85rem; color: #888; border-top: 1px solid #2a2a3a; padding-top: 20px;">
+                📌 <strong>Branch visit:</strong> You can pay ₹1000 in cash at our Ahmedabad branch. Address shared on WhatsApp.<br>
+                📞 For queries: <a href="tel:+916359288482" style="color: #60a5fa;">6359288482</a> | <a href="https://wa.me/916359288482" style="color: #25D366;">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policies & Clarification - Updated Payment Terms (removed min rate line) -->
+    <div class="container section">
+        <div class="section-header reveal">
+            <span class="section-badge">Policies & Clarity</span>
+            <h2>Rules for Premium Writers</h2>
+        </div>
+        <div class="grid-2col">
+            <div class="info-card reveal">
+                <h3>📌 Non-Cancellation Policy</h3>
+                <p>Once you receive an assignment and accept the task, you are bound to deliver it by the deadline. If you fail or cancel, you'll be removed from the premium panel & denied future work. No refund of registration fee.</p>
+            </div>
+            <div class="info-card reveal">
+                <h3>⏱ Irregular Work? No issue</h3>
+                <p>Work is based on student orders. During exam season, you may get bulk tasks. Some weeks could be slower but you stay active. Maximum earning potential for reliable writers.</p>
+            </div>
+            <div class="info-card reveal">
+                <h3>🏢 Ahmedabad any area</h3>
+                <p>We accept writers from all parts of Ahmedabad. Coordination can be done digitally (scan submission) or you may visit our branch for direct handover.</p>
+            </div>
+            <div class="info-card reveal">
+                <h3>💸 Instant Payment via UPI</h3>
+                <p>Registration fee ₹1000 is non-refundable. Per-task payment depends on length & complexity. <strong class="highlight">You get paid immediately after the customer receives the handwritten assignment</strong> — instant transfer via UPI. No waiting periods.</p>
+            </div>
+        </div>
+        <div class="alert-box reveal" style="margin-top: 20px; background: rgba(37,99,235,0.1);">
+            🤝 <strong>Personal meeting in Ahmedabad:</strong> If you prefer face-to-face interaction, you can visit our branch. Contact us via WhatsApp to schedule a meeting.<br>
+            💎 <strong>Payment guarantee:</strong> As soon as the customer confirms receipt of the completed handwritten assignment, your earnings are transferred instantly via UPI.
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+                <div><h4>✍️ Assignment Writing Service</h4><p>Handwritten assignments | Premium writer panel</p></div>
+                <div><h4>📍 Main Branch</h4><p><strong>Ahmedabad, Gujarat</strong></p><a href="index.html" style="color:#aaa;">Back to Home</a></div>
+                <div><h4>📞 Helpline</h4><p>+91 6359288482</p><a href="https://wa.me/916359288482" style="color:#25D366;">Chat on WhatsApp</a></div>
+            </div>
+            <div class="footer-bottom" style="text-align: center; margin-top: 30px;">© 2025 AWS Premium Writer Plan | Ahmedabad Residents Only | Registration Fee ₹1000 | Instant UPI payment on customer delivery</div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/916359288482?text=Hello%2C%20I%20want%20to%20know%20about%20Premium%20Writer%20Plan" class="whatsapp-float" target="_blank">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.12.55 4.114 1.52 5.85L.018 24l6.293-1.54A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.84 0-3.55-.5-5.02-1.36l-.36-.21-3.73.97.99-3.63-.22-.38A9.94 9.94 0 0 1 2 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10z"/></svg>
+    </a>
+
+    <script>
+        // Navbar scroll & mobile toggle
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 50));
+        function toggleNav() { document.getElementById('navLinks').classList.toggle('active'); }
+        function closeNav() { document.getElementById('navLinks').classList.remove('active'); }
+        document.addEventListener('click', (e) => {
+            const nav = document.getElementById('navLinks');
+            const ham = document.getElementById('hamburger');
+            if (!nav.contains(e.target) && !ham.contains(e.target)) nav.classList.remove('active');
+        });
+
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach(e => e.isIntersecting && e.target.classList.add('visible'));
+        }, { threshold: 0.1 });
+        reveals.forEach(r => obs.observe(r));
+
+        const form = document.getElementById('writerJoinForm');
+        const addressInput = document.getElementById('addressField');
+        const addressErrorSpan = document.getElementById('addressError');
+
+        function isValidAhmedabad(address) {
+            const lower = address.toLowerCase().trim();
+            const ahmedabadKeywords = ['ahmedabad', 'amdavad', 'naroda', 'maninagar', 'vastrapur', 'satellite', 'bapunagar', 'nava naroda', 'nikol', 'odhav', 'ghatlodiya', 'chandkheda', 'motera', 'sabarmati', 'shahibaug', 'ellisbridge', 'navrangpura', 'ctm', 'jodhpur', 'ambawadi', 'vejalpur', 'thaltej', 'bodakdev', 'prahladnagar', 'iscon', 'sarkhej', 'bopal', 'ghuma', 'ranip', 'gota', 'chandlodiya'];
+            if (lower.includes('ahmedabad') || lower.includes('amdavad')) return true;
+            for (let kw of ahmedabadKeywords) {
+                if (lower.includes(kw)) return true;
+            }
+            const pincodeMatch = lower.match(/\b3800\d{2}\b/);
+            if (pincodeMatch) return true;
+            return false;
+        }
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const fullName = document.getElementById('fullName').value.trim();
+            const mobile = document.getElementById('mobile').value.trim();
+            const address = addressInput.value.trim();
+            const locationChecked = document.getElementById('locationCheck').checked;
+            const noCancelChecked = document.getElementById('noCancelCheck').checked;
+            const feeChecked = document.getElementById('feeCheck').checked;
+            const workAvailChecked = document.getElementById('workAvailCheck').checked;
+
+            addressErrorSpan.innerText = '';
+
+            if (!fullName || !mobile || !address) {
+                alert("❌ Please fill all required fields (Name, Mobile, Address).");
+                return;
+            }
+            if (mobile.length < 10) {
+                alert("❌ Please enter a valid mobile number.");
+                return;
+            }
+            if (!isValidAhmedabad(address)) {
+                addressErrorSpan.innerText = "❌ You must reside in Ahmedabad (any area). Please mention 'Ahmedabad' or a known locality.";
+                return;
+            }
+            if (!locationChecked) {
+                alert("❌ You must confirm that you reside in Ahmedabad.");
+                return;
+            }
+            if (!noCancelChecked) {
+                alert("❌ You must accept the policy: 'No cancellation after accepting an order'.");
+                return;
+            }
+            if (!feeChecked) {
+                alert("❌ You must agree to pay the one-time registration fee of ₹1000 (non-refundable).");
+                return;
+            }
+            if (!workAvailChecked) {
+                alert("❌ Please acknowledge that work can be daily or occasional based on inflow.");
+                return;
+            }
+
+            const experience = document.getElementById('experience').value.trim() || "Not specified";
+            let message = `*NEW PREMIUM WRITER APPLICATION*%0A%0A`;
+            message += `👤 Name: ${encodeURIComponent(fullName)}%0A`;
+            message += `📞 WhatsApp: ${encodeURIComponent(mobile)}%0A`;
+            message += `🏠 Address: ${encodeURIComponent(address)} (Ahmedabad Resident)%0A`;
+            message += `✍️ Experience: ${encodeURIComponent(experience)}%0A%0A`;
+            message += `✅ I CONFIRM ALL TERMS:%0A`;
+            message += `- Ahmedabad (any area) resident ✓%0A`;
+            message += `- No cancellation after accepting order ✓%0A`;
+            message += `- Pay ₹1000 registration fee (non-refundable) ✓%0A`;
+            message += `- Work may be daily/occasional as per order flow ✓%0A%0A`;
+            message += `💸 I am ready to pay ₹1000 via UPI/Cash at branch. Please share payment details and add me to Premium Writer Panel.`;
+
+            const whatsappURL = `https://wa.me/916359288482?text=${message}`;
+            window.open(whatsappURL, '_blank');
+            alert("✅ Application sent! You'll be redirected to WhatsApp. Complete the ₹1000 payment to activate your premium writer status.\n\n📌 Note: After payment verification, you will start receiving assignments.");
+            form.reset();
+        });
+    </script>
+</body>
+</html>
